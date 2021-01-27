@@ -27,6 +27,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common PixelExperience stuff.
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_INCLUDE_STOCK_ARCORE := true
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
